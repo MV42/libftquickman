@@ -83,12 +83,12 @@
 *Return value*: a pointer to the matched character of NULL if the character is not found. The terminating null byte is considered part of the string, so that if `c` is specified as `'\0'` return a pointer to the terminator.
 
 ## ft_strrchr.c
-*Prototype*: `char *strrchr(const char *s, int c)`
+*Prototype*: `char *ft_strrchr(const char *s, int c)`
 *Description*: finds the last occurrence of the character `c` in the string `s`.
 *Return value*: a pointer to the matched character of NULL if the character is not found. The terminating null byte is considered part of the string, so that if `c` is specified as `'\0'` return a pointer to the terminator.
 
 ## ft_strncmp.c
-*Prototype*: `int strncmp(const char *s1, const char *s2, size_t n)`
+*Prototype*: `int ft_strncmp(const char *s1, const char *s2, size_t n)`
 *Description*: compares the first (at most) `n` bytes of the two strings `s1` and `s2`.
 *Return value*: an integer less than, equal to, or greater than zero if the first `n` bytes of `s1` is found, respectively, to be less than, to match or be greater than `s2`.
 
